@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fffae7;
+    font-size: 30px;
+    
+}
+html {
+    background-color: #fffae7;
+}
+nav {
+    max-width: 1440px;
+    margin: 10px auto;
+    text-align: right;
+    padding-right: 40px;
+    padding-left: 70px;
+    min-width: 40px;
+}
+
+.logo {
+    background-image: url(images/cukierniacakev2.jpg);
+    height: 70px;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat; 
+    position: static;
+}
+nav a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    color: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    border: 2px solid pink;
+    padding: 9px;
+    background-color: pink;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+header {
+    height: 60vh;
+    width: 100%;
+    background-image: url(images/cake-balls-4139982_1280.jpg);
+    background-size: cover;
+}
+
+header .baner h1 {
+    background-size: cover;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(1, 1, 1, 1);
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+    height: 15vh;
+    width: 80vw;;
+    line-height: 100px;
+    background-color: palevioletred;
+    opacity: 90%;
+}
+
+main {
+    max-width: 1260px;
+    margin: 5vh auto;
+    font-size: 0;
+}
+
+main p.description {
+    text-align: center;
+    color: dimgrey;
+    font-size: 0.6rem;
+    margin: 0 30px 50px 30px;
+    list-style: 180%;
+}
+
+main div.feature {
+    display: inline-block;
+    width: 32.5%;
+}
+
+main div.image-bd {
+    background-image: url(images/red-velvet-cake-4917734_1280.jpg);
+    height: 200px;
+    margin: 20px 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+main div.image-com {
+    background-image: url(images/cupcakes-1850628_1280.jpg);
+    height: 200px;
+    margin: 20px 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+main div.image-wed {
+    background-image: url(images/wedding-cake-407170_1280.jpg);
+    background-size: cover;
+    height: 200px;
+    margin: 20px 30px;
+    background-position: center;
+}
+
+main h2 {
+    color: dimgray;
+    font-size: 0.7rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer p {
+    color: darkgrey;
+    text-align: center;
+    font-size: 0.5rem;
+    background-color: rgba(0,0,0,0.8);
+}
